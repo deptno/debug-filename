@@ -10,7 +10,7 @@
 
 ## Install
 ```bash
-npm i debug-filename
+npm i filename-logger
 ```
 
 ## Usage
