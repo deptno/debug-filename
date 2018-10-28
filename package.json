@@ -1,0 +1,32 @@
+{
+  "name": "filename-logger",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deptno/debug-filename.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deptno/debug-filename/issues"
+  },
+  "homepage": "https://github.com/deptno/debug-filename#readme",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "debug": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/debug": "0.0.31",
+    "typescript": "^3.1.3"
+  }
+}
