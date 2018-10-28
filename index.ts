@@ -17,7 +17,7 @@ export function createLogger(prefix: string, __filename?: string) {
     return (__filename: string) => createLogger(prefix, __filename)
   }
   const suffix = __filename.split('/').slice(-2).join('/')
-  return debug(`prefix:${suffix}`)
+  return debug(`${prefix}:${suffix}`)
 }
 
 export default createLogger
